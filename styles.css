@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("Fonts/Montserrat-Light.ttf"), 
+    url("Fonts/Montserrat-Regular.ttf");
+}
+
+body{
+    font: lighter 1.1em "Montserrat";
+    background: urL("Images/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg") no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.nav{
+    position: fixed;
+    background-color: rgba(155,235,255,0.6);
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    top: 0;
+    padding: 9px 12px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.navtext{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.box:first-child{
+    margin-right: auto;
+}
+
+.box:last-child{
+    padding-right: 28px;
+}
+
+
+.para{
+    position: relative;
+    margin: 80px auto;
+    border: solid 2px rgba(255, 255, 255, 0.6);
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(100%);
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5);
+}
+
